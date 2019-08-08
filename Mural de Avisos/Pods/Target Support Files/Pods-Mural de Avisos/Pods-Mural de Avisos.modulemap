@@ -1,0 +1,6 @@
+framework module Pods_Mural_de_Avisos {
+  umbrella header "Pods-Mural de Avisos-umbrella.h"
+
+  export *
+  module * { export * }
+}

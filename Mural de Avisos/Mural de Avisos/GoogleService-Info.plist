@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>768479587591-c274956ron45qerl30ap2rr5qhu55l75.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.768479587591-c274956ron45qerl30ap2rr5qhu55l75</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBmjJFUbAC9SCxzqOd9o2reYuieaM3JRqs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>768479587591</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.paulomatheus.Mural-de-Avisos</string>
+	<key>PROJECT_ID</key>
+	<string>app-de-avisos-1ebf4</string>
+	<key>STORAGE_BUCKET</key>
+	<string>app-de-avisos-1ebf4.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:768479587591:ios:12b70924ff8df5fb</string>
+	<key>DATABASE_URL</key>
+	<string>https://app-de-avisos-1ebf4.firebaseio.com</string>
+</dict>
+</plist>
