@@ -18,7 +18,7 @@ class TableViewController: UITableViewController {
     var handle: DatabaseHandle!
     
     
-    var infoLista = [DataInfo]()
+    
     var avisosLista: [String] = []
     var invertidoAvisosLista: [String] = []
         

@@ -14,10 +14,9 @@
 		2E04FD5622FA0DB20064C9BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E04FD5522FA0DB20064C9BB /* Assets.xcassets */; };
 		2E04FD5922FA0DB20064C9BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E04FD5722FA0DB20064C9BB /* LaunchScreen.storyboard */; };
 		2E04FD6122FA201C0064C9BB /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E04FD6022FA201C0064C9BB /* TableViewController.swift */; };
-		2E04FD6322FA2EB00064C9BB /* InfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E04FD6222FA2EB00064C9BB /* InfoTableViewCell.swift */; };
-		2E04FD6522FA2F1B0064C9BB /* Datainfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E04FD6422FA2F1B0064C9BB /* Datainfo.swift */; };
 		2E04FD6722FA3BD40064C9BB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E04FD6622FA3BD40064C9BB /* GoogleService-Info.plist */; };
 		2EC948F522FB4B0F00101AAE /* WriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC948F422FB4B0F00101AAE /* WriteViewController.swift */; };
+		2EC948F722FBBE5400101AAE /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC948F622FBBE5400101AAE /* InfoViewController.swift */; };
 		A2F0DC8DA763D98EE2F0303D /* Pods_Mural_de_Avisos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6F6FD54F3EDF10154D2C3A /* Pods_Mural_de_Avisos.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,10 +30,9 @@
 		2E04FD5822FA0DB20064C9BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E04FD5A22FA0DB20064C9BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E04FD6022FA201C0064C9BB /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		2E04FD6222FA2EB00064C9BB /* InfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableViewCell.swift; sourceTree = "<group>"; };
-		2E04FD6422FA2F1B0064C9BB /* Datainfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datainfo.swift; sourceTree = "<group>"; };
 		2E04FD6622FA3BD40064C9BB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2EC948F422FB4B0F00101AAE /* WriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteViewController.swift; sourceTree = "<group>"; };
+		2EC948F622FBBE5400101AAE /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		6D0AB68DDB13BC15D1D7E274 /* Pods-Mural de Avisos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mural de Avisos.debug.xcconfig"; path = "Target Support Files/Pods-Mural de Avisos/Pods-Mural de Avisos.debug.xcconfig"; sourceTree = "<group>"; };
 		704994D8D2AD0988C6D226DD /* Pods-Mural de Avisos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mural de Avisos.release.xcconfig"; path = "Target Support Files/Pods-Mural de Avisos/Pods-Mural de Avisos.release.xcconfig"; sourceTree = "<group>"; };
 		8C6F6FD54F3EDF10154D2C3A /* Pods_Mural_de_Avisos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mural_de_Avisos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,19 +80,34 @@
 			isa = PBXGroup;
 			children = (
 				2E04FD4B22FA0DB00064C9BB /* AppDelegate.swift */,
-				2E04FD4D22FA0DB00064C9BB /* ViewController.swift */,
+				2E04FD6622FA3BD40064C9BB /* GoogleService-Info.plist */,
+				2E04FD5A22FA0DB20064C9BB /* Info.plist */,
+				2EC948F822FBBEA900101AAE /* Views */,
 				2E04FD4F22FA0DB00064C9BB /* Main.storyboard */,
-				2EC948F422FB4B0F00101AAE /* WriteViewController.swift */,
-				2E04FD6422FA2F1B0064C9BB /* Datainfo.swift */,
-				2E04FD6022FA201C0064C9BB /* TableViewController.swift */,
-				2E04FD6222FA2EB00064C9BB /* InfoTableViewCell.swift */,
 				2E04FD5522FA0DB20064C9BB /* Assets.xcassets */,
 				2E04FD5722FA0DB20064C9BB /* LaunchScreen.storyboard */,
-				2E04FD5A22FA0DB20064C9BB /* Info.plist */,
-				2E04FD6622FA3BD40064C9BB /* GoogleService-Info.plist */,
-				2E04FD5222FA0DB00064C9BB /* Mural_de_Avisos.xcdatamodeld */,
+				2EC948F922FBBECA00101AAE /* Files */,
 			);
 			path = "Mural de Avisos";
+			sourceTree = "<group>";
+		};
+		2EC948F822FBBEA900101AAE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2E04FD4D22FA0DB00064C9BB /* ViewController.swift */,
+				2EC948F622FBBE5400101AAE /* InfoViewController.swift */,
+				2EC948F422FB4B0F00101AAE /* WriteViewController.swift */,
+				2E04FD6022FA201C0064C9BB /* TableViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2EC948F922FBBECA00101AAE /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E04FD5222FA0DB00064C9BB /* Mural_de_Avisos.xcdatamodeld */,
+			);
+			path = Files;
 			sourceTree = "<group>";
 		};
 		31BE7681810A6DAA76F97BFC /* Pods */ = {
@@ -223,11 +236,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E04FD5422FA0DB00064C9BB /* Mural_de_Avisos.xcdatamodeld in Sources */,
-				2E04FD6322FA2EB00064C9BB /* InfoTableViewCell.swift in Sources */,
 				2E04FD4E22FA0DB00064C9BB /* ViewController.swift in Sources */,
-				2E04FD6522FA2F1B0064C9BB /* Datainfo.swift in Sources */,
 				2E04FD4C22FA0DB00064C9BB /* AppDelegate.swift in Sources */,
 				2E04FD6122FA201C0064C9BB /* TableViewController.swift in Sources */,
+				2EC948F722FBBE5400101AAE /* InfoViewController.swift in Sources */,
 				2EC948F522FB4B0F00101AAE /* WriteViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
